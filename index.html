@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CVPR'18 Tutorial on Interpretable Machine Learning in Computer Vision</title>
+<title>ICCV'19 Workshop on Cross-Modal Learning in Real World</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -19,7 +19,7 @@
       <span class="title">Interpretable Machine Learning for Computer Vision</span></td>
     </tr>
     <tr>
-        <td colspan="3" align="center"><h3>Room 355 EF, Salt Lake City, USA<br>Monday afternoon, June 18, 2018</h3></td>
+        <td colspan="3" align="center"><h3>Room #301 COEX Convention Center, Seoul, Korea<br>Saturday afternoon, November 2, 2019</h3></td>
     </tr>
   </table>
   <p><img src="figures/main.png" width="1000" align="middle" /></p>
@@ -31,33 +31,27 @@
   <h2>Speakers</h2>
     <div>
       <div class="instructor">
-          <a href="http://people.csail.mit.edu/bzhou/" >
-        <div class="instructorphoto"><img src="figures/bolei.png"></div>
-        <div>Bolei Zhou<br>MIT</div>
+          <a href="https://www.cs.tau.ac.il/~wolf/" >
+        <div class="instructorphoto"><img src="figures/lior.png"></div>
+        <div>Lior Wolf<br>Tel Aviv University & Facebook AI Research</div>
         </a>
       </div>
 
       <div class="instructor">
-        <a href="https://lvdmaaten.github.io/">
-            <div class="instructorphoto"><img src="figures/laurens.jpg"></div>
-            <div>Laurens van der Maaten<br>FAIR</div>
+        <a href="https://cs.adelaide.edu.au/~chhshen/">
+            <div class="instructorphoto"><img src="figures/chunhua.jpg"></div>
+            <div>Chunhua Shen<br>University of Adelaide</div>
         </a>
       </div>
 
       <div class="instructor">
-        <a href="http://people.csail.mit.edu/beenkim/">
-            <div class="instructorphoto"><img src="figures/been.png"></div>
-            <div>Been Kim<br>Google Brain</div>
+        <a href="https://web.eecs.umich.edu/~honglak/">
+            <div class="instructorphoto"><img src="figures/chunhua.png"></div>
+            <div>Honglak Lee (tentative)<br>Google Brain & University of Michigan, Ann Arbor</div>
         </a>
       </div>
 
-      <div class="instructor">
-          <a href="https://www.robots.ox.ac.uk/~vedaldi/">
-        <div class="instructorphoto"><img src="figures/vedaldi.jpg"></div>
-        <div>Andrea Vedaldi<br>Oxford</div>
-        </a>
-      </div>
-
+      
     </div>
     <p></p> 
 </div>   
@@ -67,9 +61,8 @@
 <div class="container">
   <h2>Overview</h2>
     <div class="overview">
-    <p>Complex machine learning models such as deep convolutional neural networks and recursive neural networks have made great progress in a wide range of computer vision applications, such as object/scene recognition, image captioning, visual question answering. But they are often perceived as black-boxes. As models are going deeper in search of better recognition accuracy, it becomes even harder to understand the predictions given by the models and why. </p>
-    <p>This tutorial is to broadly engage the computer vision community with the topic of interpretability and explainability in models used in computer vision. We will introduce the definition of interpretability and why it is important, and have a review on visualization and interpretation methodologies for analyzing both the <em>data</em> and the <em>models</em> in computer vision.  
-    </p>
+    <p>To understand the world around us more intelligently and better, it needs to be able to interpret multimodal signals together. This is because humans routinely perform complex vision tasks which involve interactions among different modalities. With the rapid growth of multimodal data (e.g., image, video, audio, depth, IR, text, sketch, synthetic, etc.), cross-modal learning, which aims to develop techniques that can process and relate information across different modalities, has drawn increasing attention recently. It is a vibrant multidisciplinary field of increasing importance and with extraordinary potential. It has been widely applied to many tasks such as cross-modal retrieval, phrase localization, visual dialogue, visual captioning, visual question answering, language-based person search/action detection/semantic segmentation, etc. </p>
+    <p>However, real world applications pose various challenges to cross modal learning, such as limited training data, multimodal content imbalance, large visual-semantic discrepancy, cross-dataset discrepancy, missing modalities, etc. To address these challenges, quite a lot of attempts motivated from various perspectives (including visual attributes, data generation, meta-learning, etc.) have been made and appeared in top conferences (including CVPR, ICCV, ECCV, NIPS and ICLR) and top journals (including TPAMI and IJCV). However, those mentioned challenges are far from being solved. The goal of this workshop is to encourage researchers to present high quality work and to facilitate effective discussions on the potential solutions to those challenges.</p>
     </div>
 </div>
 
@@ -78,18 +71,20 @@
 <div class="container">
   <h2>Schedule</h2>
     <div class="schedule">
-        <p><span class="announce_date">14:10 - 14:50 </span>.  Talk 1 by <em>Been Kim</em>: <strong>Introduction to Interpretable Machine Learning</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/been_cvpr18tutorial.pdf">PDF</a> <a href="https://www.youtube.com/watch?v=MgawSHnYQGw">Youtube</a> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/cvpr18_tutorial_part1.mp4">Mp4(talk1+talk2)</a></p>
-        <p><span class="announce_date">14:50 - 15:30 </span>.  Talk 2 by <em>Laurens van der Maaten</em>: <strong>Dos and Don'ts of using t-SNE to Understand Vision Models</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/laurens_cvpr18tutorial.pdf">PDF</a> <a href="https://youtu.be/MgawSHnYQGw?t=2589">Youtube</a></p>
-      <p><span class="announce_date">15:30 - 16:15 </span>.  Break. </p>
-      <p><span class="announce_date">16:15 - 16:55 </span>.  Talk 3 by <em>Bolei Zhou</em>: <strong>On the Importance of Individual Units in Deep Networks</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/bolei_cvpr18tutorial.pdf">PDF</a> <a href="https://www.youtube.com/watch?v=1aSS5GEH58U">Youtube</a> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/cvpr18_tutorial_part2.mp4">Mp4(talk3+talk4)</a></p>
-      <p><span class="announce_date">16:55 - 17:35 </span>.  Talk 4 by <em>Andrea Vedaldi</em>: <strong>Understanding Deep Networks using Natural pre-images, Meaningful Perturbations, and Vector Embeddings</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/vedaldi_cvpr18tutorial.pdf">PDF</a> <a href="https://youtu.be/1aSS5GEH58U?t=2860">Youtube</a></p>
+      <p><span class="announce_date">13:00 - 13:05 </span>.  Welcome Introduction </p>
+      <p><span class="announce_date">13:10 - 13:50 </span>.  Oral Session (2 presentations: 20min each) </p>
+      <p><span class="announce_date">13:55 - 14:35 </span>.  Invited Talk (Talk 1) </p>
+      <p><span class="announce_date">14:40 - 15:20 </span>.  Invited Talk (Talk 2) </p>
+      <p><span class="announce_date">15:25 - 16:05 </span>.  Invited Talk (Talk 3) </p>
+      <p><span class="announce_date">16:10 - 17:00 </span>.  Poster Session (12 posters) </p>
+      <p><span class="announce_date">17:00 - 17:05 </span>.  Closing Remarks </p>
     </div>
 </div>
 
 </br>
 
 <div class="containersmall">
-    <p>Please contact <a href="mailto:bzhou@csail.mit.edu">Bolei Zhou</a> if you have question. The webpage template is by the courtesy of awesome <a href="https://gkioxari.github.io/">Georgia</a>.</p>
+    <p>Please contact <a href="huangyan2012@ia.ac.cn">Yan Huang</a> if you have question. The webpage template is by the courtesy of awesome <a href="https://gkioxari.github.io/">Georgia</a>.</p>
 </div>
  
 <!--<p align="center" class="acknowledgement">Last updated: Jan. 6, 2017</p>-->
